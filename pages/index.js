@@ -4,7 +4,7 @@ function Home() {
     return (
         <div>
             <div>Home</div>
-            <Contador /><br/>
+            <Contador />
         </div>
     )
 }
@@ -17,8 +17,8 @@ function Contador() {
     }
     return (
         <div>
-            {contador}
-            <button onClick={adicionarContador}>Adicionar</button>
+            {contador}<br/>
+            <button onClick={adicionarContador}>Adicionar Numero</button>
         </div>
     )
 }
