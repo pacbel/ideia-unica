@@ -4,7 +4,7 @@ function Home() {
     return (
         <div>
             <div>Home</div>
-            <Contador />
+            <Contador /><br/>
         </div>
     )
 }
